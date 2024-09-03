@@ -1,0 +1,97 @@
+body {
+    background: url(./WhatsApp\ Image\ 2024-06-03\ at\ 22.22.31_65bc302f.jpg);
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #f0f0f0;
+	padding: 20px;
+	text-align: center;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+nav li {
+	margin-right: 20px;
+}
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+.properties {
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.properties ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.properties li {
+	display: inline-block;
+	width: calc(33.33% - 10px);
+	margin: 0 10px 20px 0;
+	width: 33.33%;
+	padding: 20px;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+  }
+  
+  .properties li:nth-child(3n+1) {
+	clear: left;
+  }
+
+.properties img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+.properties h3 {
+	font-weight: bold;
+	margin-top: 0;
+}
+.properties p {
+	margin-bottom: 10px;
+}
+
+button a{
+	color: #333;
+	text-decoration: none;
+}
+
+.shh{
+	margin-right: 1rem;
+}
+
+#search{
+    border-radius: 5px;
+	width: 18vw;
+}
+
+#search input{
+    background-color: transparent;
+    border: none;
+}
+ 
+#search input:focus{
+    outline: none;
+    border: none;
+}
+
+#search i{
+    color: #fff;
+    font-size: 0.5rem;
+}
